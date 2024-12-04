@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vite + React</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  /* Ensure all links are white by default */
+  .navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+
+  /* Change link color on hover */
+  .navbar .nav-link:hover {
+    color: #f0a500 !important;
+    /* Gold color on hover */
+  }
+
+  /* Submenu customization */
+  .dropdown-menu {
+    background-color: black;
+    /* Black submenu background */
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: white !important;
+    /* White submenu links */
+    transition: color 0.3s ease;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    color: #f0a500 !important;
+    /* Gold color on hover */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Subtle background change */
+  }
+
+
+
+  /* Open submenu on hover for larger screens */
+  @media (min-width: 992px) {
+    .navbar-nav .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+  }
+
+  .footer a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+  }
+</style>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
