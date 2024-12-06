@@ -614,3 +614,31 @@
   right: 61px;
   font-size: 14px;
 }
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  clear: both;
+  font-weight: 700;
+  color: var(--bs-dropdown-link-color);
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+}
