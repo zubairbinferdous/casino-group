@@ -11,6 +11,7 @@ import Blackjack from './pages/Blackjack.jsx'
 import BonusBetReview from './pages/BonusBetReview.jsx'
 import Bonuse from './pages/Bonuse.jsx'
 import CasinoGame from './pages/CasinoGame.jsx'
+import Crypto from './pages/Crypto.jsx'
 import FlappyReview from './pages/FlappyReview.jsx'
 import GambliiReview from './pages/GambliiReview.jsx'
 import LuckyReview from './pages/LuckyReview.jsx'
@@ -18,6 +19,7 @@ import LunuBetReview from './pages/LunuBetReview.jsx'
 import MobileCasino from './pages/MobileCasino.jsx'
 import MonixbetReview from './pages/MonixbetReview.jsx'
 import Neon54 from './pages/Neon54.jsx'
+import NewCasino from './pages/NewCasino.jsx'
 import PolestarReview from './pages/PolestarReview.jsx'
 import QueenReview from './pages/QueenReview.jsx'
 import SpinBetterReview from './pages/SpinBetterReview.jsx'
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
   {
     path:'/mobile',
     element:<MobileCasino></MobileCasino>
+  },
+  {
+    path:'/Crypto',
+    element:<Crypto></Crypto>
+  },
+  {
+    path:'/NewCasino',
+    element:<NewCasino></NewCasino>
   },
 
   {

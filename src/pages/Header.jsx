@@ -22,8 +22,8 @@ const Header = () => {
             </a>
             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="servicesDropdown">
               <li><a className="dropdown-item" href="/mobile">Mobile Casino</a></li>
-              <li><a className="dropdown-item" href="/">Casino Country</a></li>
-              <li><a className="dropdown-item" href="/">Payment Casino</a></li>
+              <li><a className="dropdown-item" href="/Crypto">Crypto Casino </a></li>
+              <li><a className="dropdown-item" href="/NewCasino">New Online Casino </a></li>
             </ul>
           </li>
 

@@ -19,8 +19,8 @@ const Footer = () => {
         <h5 className="footer-title">Casino</h5>
         <ul className="list-unstyled">
           <li><a href="/mobile">Casinos Rewards Casinos</a></li>
-          <li><a href="/">Casino Country</a></li>
-          <li><a href="/">Payment Casino</a></li>
+          <li><a href="/Crypto">Crypto Casino</a></li>
+          <li><a href="/NewCasino">New Online Casino </a></li>
         </ul>
       </div>
       
