@@ -115,7 +115,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
 .star {
   width: 25px;
@@ -421,4 +420,197 @@
 .text-dark {
   color: #111111;
   padding: 50px 0px;
+}
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Initial hidden state */
+.show-more-content {
+  display: none;
+  overflow: hidden;
+}
+.showMoreArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Visible state */
+.show-more-content.open {
+  display: block;
+  overflow: visible; /* Adjust as needed */
+}
+.btn-successs {
+  background-color: #ffc107;
+  color: #111111;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+.btn-successs:hover {
+  background-color: #ffc107;
+  color: #111111;
+  font-size: 16px;
+}
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-nav-link-padding-x: 3rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 30 30"%3e%3cpathstroke="rgba%280, 0, 0, 0.55%29"stroke-linecap="round"stroke-miterlimit="10"stroke-width="2"d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e
+  );
+  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+  --bs-navbar-toggler-border-radius: 0.375rem;
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.footer-button button {
+  color: #111111;
+  background-color: #ffc107;
+  display: inline-block;
+  border: #ffc107;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.more-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-button button {
+  color: #111111;
+  background-color: #ffc107;
+  display: inline-block;
+  border: #ffc107;
+  font-size: 14px;
+  padding: 7px 22px;
+  border-radius: 5px;
+}
+
+.Review {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: aliceblue;
+  position: absolute;
+  top: 65%;
+  right: 61px;
+  font-size: 14px;
+}
+
+/* Default hidden state for #area-close */
+#area-close {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+/* Visible state for #area-close */
+#area-close.visible {
+  max-height: 1000px; /* Set to a large enough value to fit your content */
+  opacity: 1;
+}
+
+/* Button styling */
+#moreData {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#moreData:hover {
+  background-color: #ffc107;
+}
+
+.weLike h3 {
+  color: #fff;
+  font-size: 19px;
+  padding-left: 5%;
+  font-weight: 700;
+}
+.weLike p {
+  color: #fff;
+  font-size: 13px;
+  padding-left: 5%;
+  font-weight: 500;
+}
+
+.more-area h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+}
+.more-area p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.border-top-top {
+  border-top: 2px dotted #ffc107;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.border-top-bottom {
+  border-bottom: 2px dotted #ffc107;
+  padding-top: 20px;
+  border-radius: 5px;
+  border-width: 80%;
+}
+
+.mrtop {
+  margin-top: 20px;
+}
+
+.more-area-width {
+  width: 99%;
+  height: auto;
+  overflow: hidden;
+}
+
+.more-bottom-area {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.Review {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: aliceblue;
+  position: absolute;
+  top: 75%;
+  right: 61px;
+  font-size: 14px;
 }

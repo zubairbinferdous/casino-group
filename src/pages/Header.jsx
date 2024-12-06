@@ -14,7 +14,7 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ms-auto">
+        <ul className="navbar-nav mx-auto">
         
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
